@@ -1,0 +1,82 @@
+.hero {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.heading {
+  width: 700px;
+  font-weight: 400;
+  margin: 10px 0;
+  /* position: absolute; */
+}
+
+.heading h1 {
+  line-height: 70px;
+  font-size: 70px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* margin: 10px auto; */
+  background-color: #fbfbfb;
+  width: 100%;
+  height: auto;
+}
+
+.hero-content .hero-left {
+  width: 50%;
+}
+
+.hero-content .hero-left p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #72696a;
+  margin: 20px auto;
+  /* width: 430px; */
+  padding: 50px 0px;
+}
+
+.hero-content .hero-left .buttons {
+  width: 430px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content .hero-left .buttons .request {
+  height: 70px;
+  width: 202px;
+  color: #fbfbfb;
+  border: 1px solid #c4a586;
+  background-color: #c4a586;
+}
+
+.hero-content .hero-left .buttons .watch {
+  height: 70px;
+  width: 202px;
+  background-color: #fbfbfb;
+  border: 1px solid #c4a586;
+  color: #c4a586;
+}
+
+.hero-content .hero-right {
+  height: auto;
+  transform: translateX(9%);
+}
+
+.hero-content .hero-right img {
+  mix-blend-mode: darken;
+  width: 100%;
+  /* transform: translateX(9%); */
+}
+
+.hero .clients {
+  width: 1200px;
+}
+
+.hero .clients h3 {
+  text-align: center;
+}
