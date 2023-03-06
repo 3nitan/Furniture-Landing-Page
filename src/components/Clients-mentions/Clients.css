@@ -1,0 +1,21 @@
+.clients {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.clients h3 {
+  text-align: center;
+  color: #292019;
+  font-size: 16px;
+}
+
+.clients .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.clients .logos img {
+  margin-inline: 50px;
+}

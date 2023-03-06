@@ -30,18 +30,6 @@ export default function HeroSection() {
           <img src='/assets/Hero-Image.png' alt='Hero Image' />
         </div>
       </div>
-
-      <div className='clients'>
-        <h3>SOME OF OUR TRUSTED CLIENTS</h3>
-        <div className='logos'>
-          <img src='' alt='' />
-          <img src='' alt='' />
-          <img src='' alt='' />
-          <img src='' alt='' />
-          <img src='' alt='' />
-          <img src='' alt='' />
-        </div>
-      </div>
     </section>
   );
 }

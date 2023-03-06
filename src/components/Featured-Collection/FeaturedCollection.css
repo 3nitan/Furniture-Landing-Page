@@ -1,0 +1,75 @@
+.fc-card {
+  height: 350px;
+  margin: 10px auto;
+
+  background: linear-gradient(
+    to right,
+    #fcefe9 0%,
+    #fcefe9 50%,
+    #fae2c8 50%,
+    #fae2c8 100%
+  );
+}
+
+.fc-card .container {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.residential-furniture {
+  /* background-color: #fcefe9; */
+  display: flex;
+  width: 600px;
+  height: 350px;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.residential-furniture .rf-text {
+  /* background-color: #fcefe9; */
+  mix-blend-mode: darken;
+}
+
+.residential-furniture .rf-text h3 {
+  font-size: 30px;
+  color: #3d3d3f;
+  width: 180px;
+  /* margin: 20px auto; */
+  /* mix-blend-mode: multiply; */
+  background-color: transparent;
+  /* background-color: #fcefe9; */
+}
+
+.residential-furniture .rf-image {
+  /* mix-blend-mode: multiply;
+  background-color: #fcefe9; */
+}
+
+.residential-furniture .rf-image img {
+  width: 409px;
+  height: 351px;
+}
+
+.hospitality-furniture {
+  width: 600px;
+  height: 350px;
+  /* background-color: #fae2c8; */
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.hospitality-furniture .hf-image {
+  /* background-color: #fae2c8; */
+  /* mix-blend-mode: multiply; */
+}
+
+.hospitality-furniture .hf-image img {
+  width: 351px;
+  height: 216px;
+}

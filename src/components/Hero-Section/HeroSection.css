@@ -12,6 +12,7 @@
 
 .heading h1 {
   line-height: 70px;
+  color: #292019;
   font-size: 70px;
 }
 
@@ -70,7 +71,6 @@
 .hero-content .hero-right img {
   mix-blend-mode: darken;
   width: 100%;
-  /* transform: translateX(9%); */
 }
 
 .hero .clients {
@@ -79,4 +79,17 @@
 
 .hero .clients h3 {
   text-align: center;
+  color: #292019;
+  font-size: 16px;
+}
+
+.hero .clients .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.hero .clients .logos img {
+  margin-inline: 50px;
 }
